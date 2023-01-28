@@ -1,0 +1,28 @@
+body, html { margin: 0; padding: 0; }
+#div-search {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    padding: 7px;
+    background-color: #444;
+    border-radius: 10px;
+}
+.borderR5 { border-radius: 5px; box-sizing: content-box; }
+#text { width: 100%; font-size: 12pt; padding: 5px; border: 1px solid #444;  }
+#text:focus { outline: 2px solid #6674b1; }
+.btnPerso { width: 5%; margin-left: 5px;  background-color: #fff; }
+.center { display: flex; justify-content: center; align-items: center; margin: 3% 0; }
+.center p { color: #444; font-size: 16pt ;}
+.api-content {
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #444;
+    margin-bottom: 2%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.img { min-width: 30%; max-width: 40%; background-color: #444; }
+.div-info-content { width: 100%; padding: 20px; }
+.info-content { position: relative; bottom: -15%; left: 0; font-size: 10pt; color: #6674b1; }
